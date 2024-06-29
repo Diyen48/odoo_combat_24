@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up Your Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Level Up Your Fitness</h1>
+    </header>
+    <main>
+        <!-- Registration Form -->
+        <section>
+            <h2>Register</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="reg_username">Username:</label>
+                    <input type="text" id="reg_username" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg_password">Password:</label>
+                    <input type="password" id="reg_password" required>
+                </div>
+                <button type="button" onclick="register()">Register</button>
+                <div id="reg_result" class="result"></div>
+            </form>
+        </section>
+
+        <!-- Login Form -->
+        <section>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="button" onclick="login()">Login</button>
+                <div id="login_result" class="result"></div>
+            </form>
+        </section>
+
+        <!-- User Profile Form -->
+        <section>
+            <h2>User Profile</h2>
+            <form id="profileForm">
+                <div class="form-group">
+                    <label for="profile_username">Username:</label>
+                    <input type="text" id="profile_username" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <input type="text" id="gender" required>
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" required>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" required>
+                </div>
+                <div class="form-group">
+                    <label for="fitness_goals">Fitness Goals:</label>
+                    <textarea id="fitness_goals" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="health_conditions">Health Conditions:</label>
+                    <textarea id="health_conditions" required></textarea>
+                </div>
+                <button type="button" onclick="updateProfile()">Update Profile</button>
+                <div id="profile_result" class="result"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Level Up Your Fitness. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
