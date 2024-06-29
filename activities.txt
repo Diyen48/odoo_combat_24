@@ -1,0 +1,3 @@
+username1:2024-06-30,ran:5km
+username2:2024-06-29,weightlifting:30mins
+username3:2024-06-30,yoga:40mins

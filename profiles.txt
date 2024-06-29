@@ -1,0 +1,3 @@
+username1:25,male,70,175,fit,null
+username2:30,female,60,165,loseweight,hypertension
+username3:40,transgender,50,170,gainweight,anxiety
